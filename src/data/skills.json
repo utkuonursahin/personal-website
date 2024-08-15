@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Frontend",
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Angular",
+      "Tailwind CSS",
+      "SASS"
+    ]
+  },
+  {
+    "title": "Backend",
+    "skills": [
+      "Java",
+      "Spring Framework",
+      "Node.js"
+    ]
+  },
+  {
+    "title": "Databases",
+    "skills": [
+      "PostgreSQL",
+      "MongoDB"
+    ]
+  },
+  {
+    "title": "Soft Skills",
+    "skills": [
+      "Public Speaking",
+      "Event Organizing",
+      "Community Management"
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Fullstack Development Intern",
+    "company": "TUBITAK BILGEM YTE",
+    "startDate": "2024-08",
+    "endDate": "2024-09",
+    "points": [
+      "Worked with a team of nine people and gained experience in terms of expectations and requirements management.",
+      "Adhered to clean code standards, making the codebase more readable and maintainable.",
+      "Developed database entities according to the organizational schema.",
+      "Renewed the personnel information system of the TUBITAK using Spring Boot, Next.js and PostgreSQL."
+    ]
+  },
+  {
+    "title": "Application Security Intern",
+    "company": "BEAM Teknoloji A.Ş.",
+    "startDate": "2023-06",
+    "endDate": "2023-09",
+    "points": [
+      "Led a three-person project team and took responsibility for development of a honeypot manager application.",
+      "Developed brute force, path traversal, phishing email, web scraper detect and web cloner honeypots.",
+      "Developed API endpoints and related user interfaces for setting up and managing honeypots and reports, listing suspicious activities, monitoring tracked data on the dashboard through charts using Angular, Spring Framework and MongoDB."
+    ]
+  }
+]
