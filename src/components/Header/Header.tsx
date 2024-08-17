@@ -8,8 +8,8 @@ import TypingAnimation from '@/components/magicui/typing-animation';
 const Header = () => {
     return (
         <header className="col-start-2 grid grid-cols-1 lg:grid-cols-[3fr,1fr] gap-16">
-            <div className="flex flex-col gap-4">
-                <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">Utku Onur Şahin</h1>
+            <div className="flex flex-col items-center lg:items-start gap-4">
+                <h1 className="text-3xl font-bold tracking-tight sm:text-5xl lg:text-6xl">Utku Onur Şahin</h1>
                 <h2 className="text-2xl font-semibold text-muted-foreground sm:text-3xl">
                     <Tooltip>
                         <TooltipTrigger>Fullstack Web Developer</TooltipTrigger>
@@ -22,7 +22,7 @@ const Header = () => {
                     </Tooltip>
                 </h2>
                 <TypingAnimation
-                    className="text-left text-base text-muted-foreground font-normal tracking-normal"
+                    className="text-justify lg:text-left text-base text-muted-foreground font-normal tracking-normal"
                     text={
                         "I'm a passionate software engineer with a strong background in full-stack web development. I love building scalable and user-friendly applications that solve real-world problems." +
                         "I'm confident in concepts like state management, component lifecycle, RESTful APIs, OOP, MVC Architecture and design patterns."
@@ -46,11 +46,12 @@ const Header = () => {
                 <Tooltip>
                     <TooltipTrigger>
                         <Image
-                            width={300}
-                            height={300}
+                            width={200}
+                            height={200}
                             src="/utku-onur-sahin.jpeg"
                             alt="Utku Onur Şahin at GDSC Graduation"
                             className="rounded-full object-cover aspect-square"
+                            priority={false}
                         />
                     </TooltipTrigger>
                     <TooltipContent side="bottom">

@@ -21,7 +21,7 @@ const ProjectCard = ({ title, description, gitHubUrl }: ProjectCardProps) => {
             </CardHeader>
             <CardFooter>
                 <Tooltip>
-                    <TooltipTrigger>
+                    <TooltipTrigger asChild>
                         <Button>
                             <Link className="flex items-center gap-2" href={gitHubUrl} prefetch={false}>
                                 <Github /> <p>See at GitHub</p>

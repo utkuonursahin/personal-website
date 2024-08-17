@@ -10,7 +10,7 @@ type SectionHeadingProps = {
 
 const SectionHeading = (props: SectionHeadingProps) => {
     return (
-        <h2 className="col-span-full text-3xl font-bold tracking-tight sm:text-4xl">
+        <h2 className="col-span-full text-2xl lg:text-2xl font-bold tracking-tight sm:text-4xl">
             <Tooltip>
                 <TooltipTrigger className="flex items-center gap-2">
                     <props.icon size={32} />
