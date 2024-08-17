@@ -5,10 +5,10 @@
     "startDate": "2024-08",
     "endDate": "2024-09",
     "points": [
-      "Worked with a team of nine people and gained experience in terms of expectations and requirements management.",
+      "Worked with a team of nine people to renew the personnel information system of the TUBITAK using Spring Framework, Next.js and PostgreSQL.",
+      "Gained experience in terms of expectations and requirements management.",
       "Adhered to clean code standards, making the codebase more readable and maintainable.",
-      "Developed database entities according to the organizational schema.",
-      "Renewed the personnel information system of the TUBITAK using Spring Boot, Next.js and PostgreSQL."
+      "Developed database entities according to the organizational schema, implemented Spring Security and much more."
     ]
   },
   {

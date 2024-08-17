@@ -19,7 +19,7 @@ const WorkExperienceCard = ({ title, company, startDate, endDate, points }: Work
                 </CardDescription>
             </CardHeader>
             <CardContent>
-                <ul className="mt-4 space-y-2 text-muted-foreground">
+                <ul className="space-y-2 text-muted-foreground">
                     {points.map((point, index) => {
                         return (
                             <li className="flex gap-1" key={index}>
