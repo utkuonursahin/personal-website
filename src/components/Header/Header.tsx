@@ -4,6 +4,7 @@ import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip
 import Link from 'next/link';
 import { Github, Linkedin } from 'lucide-react';
 import TypingAnimation from '@/components/magicui/typing-animation';
+import TooltipParagraph from '@/components/TooltipParagraph/TooltipParagraph';
 
 const Header = () => {
     return (
@@ -24,25 +25,44 @@ const Header = () => {
                 <TypingAnimation
                     className="text-justify lg:text-left text-base text-muted-foreground font-normal tracking-normal"
                     text={
-                        "I'm a passionate software engineer with a strong background in full-stack web development. I love building scalable and user-friendly applications that solve real-world problems." +
+                        "I'm a passionate software developer with a strong background in full-stack web development. I love building scalable and user-friendly applications that solve real-world problems. " +
                         "I'm confident in concepts like state management, component lifecycle, RESTful APIs, OOP, MVC Architecture and design patterns."
                     }
                     duration={15}
                 />
                 <ul className="flex items-center gap-4">
                     <li>
-                        <Link href={'https://www.linkedin.com/in/utku-onur-sahin/'}>
-                            <Linkedin />
-                        </Link>
+                        <Tooltip>
+                            <TooltipTrigger>
+                                <Link href={'https://www.linkedin.com/in/utku-onur-sahin/'}>
+                                    <Linkedin />
+                                </Link>
+                            </TooltipTrigger>
+                            <TooltipContent side="bottom">
+                                <TooltipParagraph>
+                                    This will take you to my LinkedIn profile where we can connect
+                                    professionally.
+                                </TooltipParagraph>
+                            </TooltipContent>
+                        </Tooltip>
                     </li>
                     <li>
-                        <Link href={'https://github.com/utkuonursahin'}>
-                            <Github />
-                        </Link>
+                        <Tooltip>
+                            <TooltipTrigger>
+                                <Link href={'https://github.com/utkuonursahin'}>
+                                    <Github />
+                                </Link>
+                            </TooltipTrigger>
+                            <TooltipContent side="bottom">
+                                <TooltipParagraph>
+                                    This will take you to my GitHub profile where you can see my projects.
+                                </TooltipParagraph>
+                            </TooltipContent>
+                        </Tooltip>
                     </li>
                 </ul>
             </div>
-            <div className="flex items-center justify-center">
+            <div className="lg:h-[16.5rem] flex items-center justify-center">
                 <Tooltip>
                     <TooltipTrigger>
                         <Image
