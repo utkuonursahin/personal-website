@@ -5,10 +5,10 @@
     "startDate": "2024-08",
     "endDate": "2024-09",
     "points": [
-      "Worked with a team of nine people to renew the personnel information system of the TUBITAK using Spring Framework, Next.js and PostgreSQL.",
-      "Gained experience in terms of expectations and requirements management.",
-      "Adhered to clean code standards, making the codebase more readable and maintainable.",
-      "Developed database entities according to the organizational schema, implemented Spring Security and much more."
+      "Worked with a team of nine people to build a personnel management system for the TÜBİTAK.",
+      "Completed tasks, such as implementing Spring Security, creating database entities, queries and services according to project requirements, designing frontend component infrastructures, and much more.",
+      "Adhered to clean code standards, making the codebase more readable and maintainable. Gained a sustainability-focused mindset for long-term project management.",
+      "Used Spring Framework, Next.js, and PostgreSQL as the full-stack technologies. Additionally, utilized Jira to track and manage issues and BitBucket as the project’s version control system."
     ]
   },
   {
