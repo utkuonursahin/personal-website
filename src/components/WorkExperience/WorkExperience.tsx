@@ -7,7 +7,7 @@ import SectionHeading from '@/components/SectionHeading/SectionHeading';
 
 const WorkExperience = () => {
     return (
-        <section className="grid grid-cols-1 lg:grid-cols-2 grid-rows-[min-content,1fr] gap-y-8 gap-x-4">
+        <section className="grid grid-cols-1 grid-rows-[min-content,repeat(3,min-content)] gap-y-8 gap-x-4">
             <SectionHeading
                 heading={'Work Experience'}
                 icon={Building}

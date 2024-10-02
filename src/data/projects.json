@@ -5,13 +5,13 @@
     "githubUrl": ""
   },
   {
-    "title": "Honeynet",
-    "description": "Honeypot management system that allows users to deploy and manage honeypots on their network and monitor the tracked data on the main app.",
-    "githubUrl": "https://github.com/utkuonursahin/honeynet-ALL-BE"
-  },
-  {
     "title": "EasyChat",
     "description": "A realtime chat application that allows users to create and join chat rooms and chat with other users in real-time.",
     "githubUrl": "https://github.com/utkuonursahin/easy-chat-BE"
+  },
+  {
+    "title": "Honeynet",
+    "description": "Honeypot management system that allows users to deploy and manage honeypots on their network and monitor the tracked data on the main app.",
+    "githubUrl": "https://github.com/utkuonursahin/honeynet-ALL-BE"
   }
 ]
