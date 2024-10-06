@@ -7,7 +7,7 @@ import SectionHeading from '@/components/SectionHeading/SectionHeading';
 
 const Skills = () => {
     return (
-        <section className="grid grid-cols-1 lg:grid-cols-4 grid-rows-[min-content,1fr] gap-y-8 gap-x-4">
+        <section className="grid grid-cols-1 lg:grid-cols-5 grid-rows-[min-content,1fr] gap-y-8 gap-x-4">
             <SectionHeading
                 heading={'Skills'}
                 icon={DraftingCompass}

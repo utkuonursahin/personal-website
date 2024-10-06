@@ -15,8 +15,7 @@
     "title": "Backend",
     "skills": [
       "Java",
-      "Spring Framework",
-      "Node.js"
+      "Spring Framework"
     ]
   },
   {
@@ -24,6 +23,14 @@
     "skills": [
       "PostgreSQL",
       "MongoDB"
+    ]
+  },
+  {
+    "title": "Tools",
+    "skills": [
+      "Git",
+      "Docker",
+      "Jira"
     ]
   },
   {

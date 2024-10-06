@@ -13,11 +13,11 @@ const Header = () => {
                 <h1 className="text-3xl font-bold tracking-tight sm:text-5xl lg:text-6xl">Utku Onur Şahin</h1>
                 <h2 className="text-2xl font-semibold text-muted-foreground sm:text-3xl">
                     <Tooltip>
-                        <TooltipTrigger>Fullstack Web Developer</TooltipTrigger>
+                        <TooltipTrigger>Fullstack Software Engineer</TooltipTrigger>
                         <TooltipContent side="right">
                             <p className="font-normal text-sm tracking-normal">
-                                A full-stack web developer is a person who can develop both client and server
-                                software.
+                                A full-stack software engineer is a person who can develop both client and
+                                server software.
                             </p>
                         </TooltipContent>
                     </Tooltip>
