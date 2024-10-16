@@ -11,7 +11,7 @@ const WorkExperience = () => {
             <SectionHeading
                 heading={'Work Experience'}
                 icon={Building}
-                toolTipContent={"I'm open to job opportunities right now!"}
+                toolTipContent={'Right now, I work as a fullstack software engineer at TÜBİTAK BİLGEM YTE.'}
             />
 
             {WorkExperienceData.map((workExperience, index) => (
